@@ -61,18 +61,18 @@ zip() 함수는 서로 다른 튜플 내 요소들을 인덱스에 맞게 짝지
 
 하지만 ‘zip(collections.Counter(nums).most\_common(k))’를 실행해보면 위의 예시와 다른 방식으로 출력된다. 엘리먼트끼리 짝지어지는 것이 아니라, 하나로 묶인 엘리먼트와 빈 값이 짝지어진다.
 
-<img width="504" alt="스크린샷 2022-07-09 오전 11 12 40" src="https://user-images.githubusercontent.com/96895686/178088102-19cc5a27-0060-4632-b2c6-45decc4310ca.png">
+<img width="505" alt="image" src="https://user-images.githubusercontent.com/96895686/178125388-67dec1ac-4f41-40ab-83ba-7ac71a94ab78.png">
+
 
 ### 4) 아스테리스크(\*)
 
 아스테리스크(\*)는 시퀀스를 언팩(Unpack)하는 연산자다. 위 예시에서 튜플로 묶인 엘리먼트를 언팩한 후 zip() 함수를 적용하면 우리가 원하는 형태의 값을 얻을 수 있다.
 
-<img width="505" alt="스크린샷 2022-07-09 오전 11 16 04" src="https://user-images.githubusercontent.com/96895686/178088148-307ecb9c-7229-400a-b75f-8bdb5f23ed90.png">
+<img width="505" alt="image" src="https://user-images.githubusercontent.com/96895686/178125396-17e2806a-dd03-4817-821b-6c52ff38ca34.png">
 
 
 ### 5) 인덱싱
 
 우리는 개수가 가장 많은 엘리먼트 k개(1과 2)를 리스트에 담아서 출력하고자 한다. 따라서 인덱싱으로 리스트의 첫 번째 요소를 출력하면 최종 답을 구할 수 있다.
 
-<img width="512" alt="스크린샷 2022-07-09 오전 11 10 28" src="https://user-images.githubusercontent.com/96895686/178088150-08d37133-4b02-4543-9d26-9dc5fea36055.png">
-
+<img width="505" alt="image" src="https://user-images.githubusercontent.com/96895686/178125415-0b0c76a1-0d73-4ae1-b7a5-e99bf6298c36.png">
